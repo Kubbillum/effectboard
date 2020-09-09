@@ -1,0 +1,124 @@
+body {
+  text-align: center;
+  background-color: #ffbd69;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #c70039;
+  font-family: "Gochi Hand", cursive;
+  text-shadow: 3px 0 #111d5e;
+}
+
+footer {
+  color: #f37121;
+  font-family: sans-serif;
+}
+
+.q {
+  background-size: 50%;
+  background-image: url("images/alarm.png");
+  background-repeat: no-repeat;
+}
+
+.w {
+  background-size: 50%;
+  background-image: url("images/applaus.png");
+  background-repeat: no-repeat;
+}
+
+.e {
+  background-size: 50%;
+  background-image: url("images/beer.png");
+  background-repeat: no-repeat;
+}
+
+.r {
+  background-size: 50%;
+  background-image: url("images/buh.png");
+  background-repeat: no-repeat;
+}
+
+.a {
+  background-size: 50%;
+  background-image: url("images/buzzer.png");
+  background-repeat: no-repeat;
+}
+
+.s {
+  background-size: 50%;
+  background-image: url("images/cavalry.png");
+  background-repeat: no-repeat;
+}
+
+.d {
+  background-size: 50%;
+  background-image: url("images/cheers.png");
+  background-repeat: no-repeat;
+}
+
+.f {
+  background-size: 50%;
+  background-image: url("images/explosion.png");
+  background-repeat: no-repeat;
+}
+
+.y {
+  background-size: 50%;
+  background-image: url("images/gameover.png");
+  background-repeat: no-repeat;
+}
+
+.x {
+  background-size: 50%;
+  background-image: url("images/jokedrumkit.png");
+  background-repeat: no-repeat;
+}
+
+.c {
+  background-size: 50%;
+  background-image: url("images/laughter.png");
+  background-repeat: no-repeat;
+}
+
+.v {
+  background-size: 50%;
+  background-image: url("images/whistle.png");
+  background-repeat: no-repeat;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.effect {
+  outline: none;
+  border: 10px solid #111d5e;
+  font-size: 5rem;
+  font-family: 'Gochi Hand', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: black;
+  text-shadow: 3px 0 #c70039;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
