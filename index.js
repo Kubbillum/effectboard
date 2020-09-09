@@ -31,62 +31,61 @@ function makeSound(key) {
   switch (key) {
 
     case "q":
-      var alarm = new Audio("effects/alarm.mp3");
+      var alarm = new Audio("alarm.mp3");
       alarm.play();
       break;
-
     case "w":
-      var applaus = new Audio("effects/applaus.wav");
+      var applaus = new Audio("applaus.wav");
       applaus.play();
       break;
 
     case "e":
-      var beer = new Audio("effects/beer.mp3");
+      var beer = new Audio("beer.mp3");
       beer.play();
       break;
 
     case "r":
-      var buh = new Audio("effects/buh.mp3");
+      var buh = new Audio("buh.mp3");
       buh.play();
       break;
 
     case "a":
-      var buzzer = new Audio("effects/buzzer.wav");
+      var buzzer = new Audio("buzzer.wav");
       buzzer.play();
       break;
 
     case "s":
-      var cavalry = new Audio("effects/cavalry.mp3");
+      var cavalry = new Audio("cavalry.mp3");
       cavalry.play();
       break;
 
     case "d":
-      var cheers = new Audio("effects/cheers.mp3");
+      var cheers = new Audio("cheers.mp3");
       cheers.play();
       break;
 
     case "f":
-      var explosion = new Audio("effects/explosion.wav");
+      var explosion = new Audio("explosion.wav");
       explosion.play();
       break;
 
     case "y":
-      var gameover = new Audio("effects/gameover.wav");
+      var gameover = new Audio("gameover.wav");
       gameover.play();
       break;
 
     case "x":
-      var jokedrumkit = new Audio("effects/jokedrumkit.mp3");
+      var jokedrumkit = new Audio("jokedrumkit.mp3");
       jokedrumkit.play();
       break;
 
     case "c":
-      var laughter = new Audio("effects/laughter.mp3");
+      var laughter = new Audio("laughter.mp3");
       laughter.play();
       break;
 
     case "v":
-      var whistle = new Audio("effects/whistle.mp3");
+      var whistle = new Audio("whistle.mp3");
       whistle.play();
       break;
 
