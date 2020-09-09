@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 6rem;
   color: #c70039;
   font-family: "Gochi Hand", cursive;
   text-shadow: 3px 0 #111d5e;
@@ -17,73 +17,73 @@ footer {
 
 .q {
   background-size: 50%;
-  background-image: url("alarm.png");
+  background-image: url("images/alarm.png");
   background-repeat: no-repeat;
 }
 
 .w {
   background-size: 50%;
-  background-image: url("applaus.png");
+  background-image: url("images/applaus.png");
   background-repeat: no-repeat;
 }
 
 .e {
   background-size: 50%;
-  background-image: url("beer.png");
+  background-image: url("images/beer.png");
   background-repeat: no-repeat;
 }
 
 .r {
   background-size: 50%;
-  background-image: url("buh.png");
+  background-image: url("images/buh.png");
   background-repeat: no-repeat;
 }
 
 .a {
   background-size: 50%;
-  background-image: url("buzzer.png");
+  background-image: url("images/buzzer.png");
   background-repeat: no-repeat;
 }
 
 .s {
   background-size: 50%;
-  background-image: url("cavalry.png");
+  background-image: url("images/cavalry.png");
   background-repeat: no-repeat;
 }
 
 .d {
   background-size: 50%;
-  background-image: url("cheers.png");
+  background-image: url("images/cheers.png");
   background-repeat: no-repeat;
 }
 
 .f {
   background-size: 50%;
-  background-image: url("explosion.png");
+  background-image: url("images/explosion.png");
   background-repeat: no-repeat;
 }
 
 .y {
   background-size: 50%;
-  background-image: url("gameover.png");
+  background-image: url("images/gameover.png");
   background-repeat: no-repeat;
 }
 
 .x {
   background-size: 50%;
-  background-image: url("jokedrumkit.png");
+  background-image: url("images/jokedrumkit.png");
   background-repeat: no-repeat;
 }
 
 .c {
   background-size: 50%;
-  background-image: url("laughter.png");
+  background-image: url("images/laughter.png");
   background-repeat: no-repeat;
 }
 
 .v {
   background-size: 50%;
-  background-image: url("whistle.png");
+  background-image: url("images/whistle.png");
   background-repeat: no-repeat;
 }
 
@@ -121,4 +121,103 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+@media (max-width: 1028px) {
+  .effect {
+    outline: none;
+    border: 15px solid #111d5e;
+    font-size: 0rem;
+    font-family: 'Gochi Hand', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: black;
+    text-shadow: 5px 0 #c70039;
+    border-radius: 20px;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+
+  h1 {
+    font-size: 9rem;
+    color: #c70039;
+    font-family: "Gochi Hand", cursive;
+    text-shadow: 4px 0 #111d5e;
+  }
+
+  .q {
+    background-size: 100%;
+    background-image: url("images/alarm.png");
+    background-repeat: no-repeat;
+  }
+
+  .w {
+    background-size: 100%;
+    background-image: url("images/applaus.png");
+    background-repeat: no-repeat;
+  }
+
+  .e {
+    background-size: 100%;
+    background-image: url("images/beer.png");
+    background-repeat: no-repeat;
+  }
+
+  .r {
+    background-size: 100%;
+    background-image: url("images/buh.png");
+    background-repeat: no-repeat;
+  }
+
+  .a {
+    background-size: 100%;
+    background-image: url("images/buzzer.png");
+    background-repeat: no-repeat;
+  }
+
+  .s {
+    background-size: 100%;
+    background-image: url("images/cavalry.png");
+    background-repeat: no-repeat;
+  }
+
+  .d {
+    background-size: 100%;
+    background-image: url("images/cheers.png");
+    background-repeat: no-repeat;
+  }
+
+  .f {
+    background-size: 100%;
+    background-image: url("images/explosion.png");
+    background-repeat: no-repeat;
+  }
+
+  .y {
+    background-size: 100%;
+    background-image: url("images/gameover.png");
+    background-repeat: no-repeat;
+  }
+
+  .x {
+    background-size: 100%;
+    background-image: url("images/jokedrumkit.png");
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    background-size: 100%;
+    background-image: url("images/laughter.png");
+    background-repeat: no-repeat;
+  }
+
+  .v {
+    background-size: 100%;
+    background-image: url("images/whistle.png");
+    background-repeat: no-repeat;
+  }
 }
