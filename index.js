@@ -71,7 +71,7 @@ function makeSound(key) {
       break;
 
     case "y":
-      var gameover = new Audio("gameover.wav");
+      var gameover = new Audio("gameover.mp3");
       gameover.play();
       break;
 
